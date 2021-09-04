@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "node ./server/generate.js > ./server/database.json",
-    "start": "json-server --watch -q ./server/database.json"
+    "start": "json-server --watch ./server/database.json",
+    "build": "npm build"
   },
   "keywords": [],
   "author": "",
